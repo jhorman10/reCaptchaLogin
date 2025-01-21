@@ -1,0 +1,26 @@
+.dashboard-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* @media screen and (max-width: 768px) {
+    .dashboard-layout {
+        flex-direction: row;
+    }
+
+    .content {
+        padding: 20px 40px;
+    }
+} */
